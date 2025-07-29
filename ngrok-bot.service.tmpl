@@ -1,0 +1,13 @@
+[Unit]
+Description=ngrok port telegram bot
+After=network.target
+
+[Service]
+User={{ USER }}
+WorkingDirectory={{ PROJECT_DIR }}
+ExecStart={{ PROJECT_DIR }}/target/release/ngrok-bot
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

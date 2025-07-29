@@ -1,0 +1,13 @@
+[package]
+name = "ngrok-bot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15.0"
+log = "0.4"
+reqwest = { version = "0.12.22", features = ["json"] }
+serde = { version = "1.0.219", features = ["derive"] }
+teloxide = { version = "0.17.0", features = ["macros"] }
+tokio = { version = "1.47.0", features = ["full"] }
+pretty_env_logger = "0.5"
