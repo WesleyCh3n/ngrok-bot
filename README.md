@@ -41,4 +41,8 @@ in free version.
   ./deploy-bot.sh
   ```
 
+## Usage
+
+In your telegram bot chat, type `/getport` then it will respond with the port number.
+
 ## License: MIT
