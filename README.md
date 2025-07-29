@@ -45,4 +45,6 @@ in free version.
 
 In your telegram bot chat, type `/getport` then it will respond with the port number.
 
-## License: MIT
+## License
+
+MIT
